@@ -1,20 +1,25 @@
 {
-  "name": "server",
+  "name": "sqlbots-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "SQLBots 服务器端 - 机器监控与管理系统",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "sqlbots",
+    "monitoring",
+    "machine-management"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@supabase/supabase-js": "^2.78.0",
+    "fastify": "^4.24.3",
+    "@supabase/supabase-js": "^2.38.4",
     "crypto-js": "^4.2.0",
-    "dotenv": "^17.2.3",
-    "fastify": "^5.6.2"
+    "dotenv": "^16.3.1"
   }
 }
+
