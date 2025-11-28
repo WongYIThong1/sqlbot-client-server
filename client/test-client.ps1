@@ -17,3 +17,4 @@ Write-Host ""
 cd $PSScriptRoot
 go run main.go
 
+

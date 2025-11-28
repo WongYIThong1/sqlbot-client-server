@@ -55,3 +55,4 @@ func GetMachineInfo() (*MachineInfo, error) {
 		Cores:       cpuCount,
 	}, nil
 }
+

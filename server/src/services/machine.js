@@ -68,3 +68,4 @@ export async function updateMachineInfo(machineId, apiKey, updateData) {
   return await updateMachine(machineId, apiKey, updateData);
 }
 
+

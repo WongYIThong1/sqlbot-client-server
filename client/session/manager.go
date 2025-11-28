@@ -63,3 +63,4 @@ func (m *Manager) HasValidSession() bool {
 	return valid
 }
 
+
